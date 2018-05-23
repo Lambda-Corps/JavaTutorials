@@ -4,3 +4,5 @@ These lessons are designed to take someone (you) that has little to no programmi
 
 
 [Lesson 0](Lesson_0/README.md) -- Hello World
+
+[Lesson 1](Lesson_1/README.md) -- Basic Syntax
