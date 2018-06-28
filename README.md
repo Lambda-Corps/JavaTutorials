@@ -4,5 +4,10 @@ These lessons are designed to take someone (you) that has little to no programmi
 
 
 [Lesson 0](Lesson_0/README.md) -- Hello World
+* Runtime Setup, Hello World
 
 [Lesson 1](Lesson_1/README.md) -- Basic Syntax
+* Classes, Objects, Methods, Variables
+
+[Lesson 2](Lesson_2/README.md) -- Advanced
+* Objects, Instances, Methods, Variables

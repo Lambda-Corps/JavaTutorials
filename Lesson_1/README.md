@@ -2,7 +2,7 @@
 
 A Java program can be very simply described:  ___It is a collection of classes that communicate with each other to perform a set of tasks___.  Classes are the core of programs that is written in the Java programming language, so that's what we need to understand first.
 
-The way these classes work will be by mainting a state of saved information in variables, and pass information between each other using methods.  Variables and methods will be discussed further down in the lesson.
+The way these classes work will be by maintaining a state of saved information in variables, and pass information between each other using methods.  Variables and methods will be discussed further down in the lesson.
 
 ## Classes
 A class should be thought of as a definition of a given behavior. Think of it as the blueprint of the program.  Just like in architecture, a blueprint is not a building.  A blueprint defines what a building will be once it is constructed, but it's not and never will be a building.  The building must be constructed by materials before it's a building.
@@ -11,7 +11,7 @@ In Java, a class that is constructed is referred to as an ___Object___.  So, und
 
 Notice the difference, the single word difference?  We changed out classes, and inserted objects.  Why?  Because classes are only blueprints, they are only definitions of states and behaviors that make up a program, it's the objects themselves that actually _implement_ the functionality.
 
-To be useful to anyone, objects need to be able to communicate with other objects. There are many reasons for this, but the main reason is to keep the code simple for developers. The Java compiler doesn't care if put all the functionality in one class, or 100 classes.  The compiled program will be the same, however it is much easier for programmers to put functionality into small, clearly named classes in the source files.  
+To be useful to anyone, objects need to be able to communicate with other objects. There are many reasons for this, but the main reason is to keep the code simple for developers. The Java compiler doesn't care if you put all the functionality in one class, or 100 classes.  The compiled program will be the same, however it is much easier for programmers to put functionality into small, clearly named classes in the source files.  
 
 Lets put this into action.
 
@@ -78,7 +78,8 @@ Back to the _ShapeMain.java_ file.
 1. Define the class and instance variables that hold the state
 1. Define the methods used by other objects to access the Square's properties
 1. Edit the _ShapeMain_ class definition to instantiate a Square object, and print the details to the screen.
-1. Compile and run the source file just as discussed in Lesson 0
+    * Sample source file is found below
+1. Compile and run the source file following the same instructions as discussed in Lesson 0
     > javac ShapeMain.java
     
     > java -cp . ShapeMain
